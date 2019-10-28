@@ -14,19 +14,19 @@ Since September 11 2001, terrorism has been in the headlines around the globe. A
 # Dataset
 
 Global Terrorism Database: This database is a collection of facts about terrorist attacks from 1970-2017. The facts cover location, date, motive, and who claimed the attack.
-and 
+
 All the news: a database of news coverage from CNN, New york times, Breitbart, Fox news, the Guardian, to name a few. Articles span from 2015 to 2017. We are hoping to extract information concerning news coverage of terrorist attacks as well as information concerning immigration policies.
 
 # A list of internal milestones up until project milestone 2
 
-clean data set (1 week)
-extract general trends over time and location (1 week)
-motives and tendencies of incidences (1 week)
-extract information concerning news coverage (1 week)
-migration information from news dataset(1 week)
+- clean data set (1 week)
+- extract general trends over time and location (1 week)
+- motives and tendencies of incidences (1 week)
+- extract information concerning news coverage (1 week)
+- migration information from news dataset(1 week)
 
 # Questions for TAs
 
-How do you suggest we bring more originality into the project?
-Is the content we have enough to make a project?
-how can we deal with the issue that we only cover american media? should we use other new sources or underline our statement using tweets to observe how the general public mentions these incidents?
+- How do you suggest we bring more originality into the project?
+- Is the content we have enough to make a project?
+- How can we deal with the issue that we only cover american media? should we use other new sources or underline our statement using tweets to observe how the general public mentions these incidents?
