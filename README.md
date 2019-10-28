@@ -1,45 +1,32 @@
-# Title
+# Terrorism percieved though western news
 
 # Abstract
-A 150 word description of the project idea, goals, dataset used. What story you would like to tell and why? What's the motivation behind your project?
 
-In the light of the recent events, our carbon emissions have become a hot topic. It is often difficult to understand how our food choices, composed by many components from around the world, have an effect on our general carbon footprint. We will go try to extract recent food trends and expose their environmental impacts. We will investigate the different macroelements composing our daily diets, and go into the tradeoff between health impact and their environmental implications. We will exploit the Open Food Facts data base, as well as the publication "Reducing food’s environmental impacts through producers and consumers" (Science, 360(6392), 987-992). We want to observe consumer differences between the United states, and France as they represent the largest amount of data in our data set. 
+Since September 11 2001, terrorism has been in the headlines around the globe. A general fear reappears every few years as events labeled as "terrorist attacks" occur. Certain parties have gained in popularity in the past few years, often using the anxiety of "dangerous terrorists" as a pretext to defend anti-immigrant policies. Have terrorist attacks increased in the past years as we are lead to believe? or has the rate been more or less constant? Are foreigners or immigrants really more likely to commit these terrorist attacks? News coverage plays a big role in how we percieve these events, some events are debated and discussed during weeks, while others are never mentioned. We want to explore the rate and distribution of these attacks over the world, and dive into their news coverage in the western hemisphere.  
 
 # Research questions
-A list of research questions you would like to address during the project. 
-- What are the general food trends? Are there large differences between France and the USA?
-- Can a hypothetical carbon foot print be attributed to the different food items?
-- What food trends have the biggest carbon footprint? How important is the transport between production and place of consomation?
-- Grade declarations describe the health impact of food items. What is the most optimal balance or trade-off between impact on the environment and on our health?
 
+- Have the terrorist attack rates, motives, locations, changed over the past 50 years?
+- Where do terrorist attacks occur?
+- Who commit terrorist attacks and by what motive?
+- What is the general news coverage and therefore biased opinion concerning these attacks? and how is this linked with the immigration question?
 
 # Dataset
 
-List the dataset(s) you want to use, and some ideas on how do you expect to get, manage, process and enrich it/them. Show us you've read the docs and some examples, and you've a clear idea on what to expect. Discuss data size and format if relevant.
-
-Open food facts: https://world.openfoodfacts.org/data
+Global Terrorism Database: This database is a collection of facts about terrorist attacks from 1970-2017. The facts cover location, date, motive, and who claimed the attack.
 and 
-"Reducing food’s environmental impacts through producers and consumers" (Science, 360(6392), 987-992)
-
-The open food database is created by consumers for consumers. People scan and enter descriptions and general information about a product. Being modified by many users, there is a large amount of data cleaning needed. 
-Open Food facts is composed of around 10^6 entries, about 60% of which are from french products, and about 18% corresponding to products consumed in the USA. Some general information concerning the entries are: country of origin and manufacture, the food categories, the food components, date and number of modifications, scale of health impact (from A to E), palm oil contained, some carbon footprint information, packaging, brands and allergens. 
-
+All the news: a database of news coverage from CNN, New york times, Breitbart, Fox news, the Gardian, to name a few. Articles span from 2015 to 2017. We are hoping to extract information concerning news coverage of terrorist attacks as well as information concerning immigrantion policies.
 
 # A list of internal milestones up until project milestone 2
-Add here a sketch of your planning for the next project milestone.
 
-clean data set (1-2weeks)
-extract general trends (1 week)
-comparison USA france (1 week)
-put in relation with environmental impact data set (1 week)
-explore carbon foot print impact of different components (1 week)
-
-
+clean data set (1 week)
+extract general trends over time and location (1 week)
+motives and tendancies of incidences (1 week)
+extract information concerning news coverage (1 week)
+migration information from news datatset(1 week)
 
 # Questions for TAa
-Add here some questions you have for us, in general or project-specific.
 
-Is our approach too mainstream? 
-Should we also link with recipes?
-Can columns with similar titles be merged?
-Issues in dataset for cleaning: many languages, repetitions, many types of tags, what is the best approach? 
+How do you suggest we bring more originality into the project?
+Is the content we have enough to make a project?
+how can we deal with the issue that we only cover american media? should we use other new sources or underline our statement using tweets to observe how the general public mentions these incidents?
