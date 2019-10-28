@@ -2,7 +2,7 @@
 
 # Abstract
 
-Since September 11 2001, terrorism has been in the headlines around the globe. A general fear reappears every few years as events labeled as "terrorist attacks" occur. Certain parties have gained in popularity in the past few years, often using the anxiety of "dangerous terrorists" as a pretext to defend anti-immigrant policies. Have terrorist attacks increased in the past years as we are lead to believe? or has the rate been more or less constant? Are foreigners or immigrants really more likely to commit these terrorist attacks? News coverage plays a big role in how we percieve these events, some events are debated and discussed during weeks, while others are never mentioned. We want to explore the rate and distribution of these attacks over the world, and dive into their news coverage in the western hemisphere.  
+Since September 11 2001, terrorism has been in the headlines around the globe. A general fear in Europe reappears every few years, as events labeled as "terrorist attacks" occur. Certain parties have gained in popularity in the past few years, often using the anxiety of "dangerous terrorists" as a pretext to defend anti-immigrant policies. Have terrorist attacks increased in the past years as we are lead to believe? or has the rate been more or less constant? Are foreigners or immigrants really more likely to commit these terrorist attacks? News coverage plays a big role in how we percieve these events, some events are debated and discussed during weeks, while others are never mentioned. We want to explore the rate and distribution of these attacks over the world, and dive into their news coverage in the western hemisphere.
 
 # Research questions
 
@@ -19,7 +19,7 @@ All the news: a database of news coverage from CNN, New york times, Breitbart, F
 
 # A list of internal milestones up until project milestone 2
 
-clean data set (1 week)
+clean data sets (1 week)
 extract general trends over time and location (1 week)
 motives and tendancies of incidences (1 week)
 extract information concerning news coverage (1 week)
