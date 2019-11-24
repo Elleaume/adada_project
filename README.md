@@ -9,24 +9,37 @@ Since September 11 2001, terrorism has been in the headlines around the globe. A
 - Have the terrorist attack rates, motives, locations, changed over the past 50 years?
 - Where do terrorist attacks occur?
 - Who commit terrorist attacks and by what motive?
-- What is the general news coverage and therefore biased opinion concerning these attacks? and how is this linked with the immigration question?
+- How are is global terrorism depicted in some selected popular western newpapers? 
 
-# Dataset
+# Datasets
 
-Global Terrorism Database: This database is a collection of facts about terrorist attacks from 1970-2017. The facts cover location, date, motive, and who claimed the attack.
+## Global Terrorism Database
 
-All the news: a database of news coverage from CNN, New york times, Breitbart, Fox news, the Guardian, to name a few. Articles span from 2015 to 2017. We are hoping to extract information concerning news coverage of terrorist attacks as well as information concerning immigration policies.
+This database is a collection of facts about terrorist attacks from 1970-2017. The facts cover location, date, motive, and who claimed the attack and a very large variety of other very specific metrics. 
+https://www.kaggle.com/START-UMD/gtd
 
-# A list of internal milestones up until project milestone 2
+Also all the data from 1993 was lost during the digitalisation process. 
 
-- clean data set (1 week)
-- extract general trends over time and location (1 week)
-- motives and tendencies of incidences (1 week)
-- extract information concerning news coverage (1 week)
-- migration information from news dataset(1 week)
 
-# Questions for TAs
+## All the news 
+This database is a collection of news coverage from CNN, New York Times, Breitbart, Fox news, the Guardian, 
+https://www.kaggle.com/snapcrack/all-the-news#articles3.csv 
 
-- How do you suggest we bring more originality into the project?
-- Is the content we have enough to make a project?
-- How can we deal with the issue that we only cover american media? should we use other new sources or underline our statement using tweets to observe how the general public mentions these incidents?
+After investigating all-the-news datset, we found out that the distribution in time of the articles was highly imbalanced and most of the data was dated from 2017 and 2016 with very few entries for earlier yeares. After a first fitlering of the articles using a sentence matcher on the titles, only 9 articles corresponding to a custom-build dictionary of words of interest on terrorism. Given that the dataset had to be cleaned further and that there were evidence of a lot of data not concerning our topic we decide to drop it. 
+
+### New York Times articles
+
+To construct a new dataset, we had to narrow down the diversity of publishers and chose to start using only New York Times articles. The New York Times provides a very robust Application Programming Interfaces (APIs) to enable computer applications to request informations on a large diversity of subjects. Article Search API retrieves headlines, abstracts and links to associated multimedia from 1851 to today and can be used to look up articles by keyword. To contrsuct a preliminary database, we used the keyword `terrorism` and data was returned in a  `JSON` format. 
+
+New York Times data contains an abstract, date, headline, location when available, section, list of subjects, the url	and a word count.
+
+### Limitations
+
+The New York Times sets two rate limits per API, 4000 requests per day and 10 requests per minute, which can be limiting to construct a full database in a limited amount of time. However, we planned to enrich the database as time goes by using also more query keywords. 
+
+Furthermore, limiting news coverage only to New York Times is clearly not as representative to western media in general even if we chose one of the most popular newspaper written in english. 
+
+Because of this, in the furture we would also like to scrape articles from The Guardian as its Content API provides access to all the content the Guardian published as far back as 1999 but this would mean that the timespan we would have to consider would be from 1999 to 2017. 
+
+
+
