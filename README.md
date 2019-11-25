@@ -51,8 +51,8 @@ Depending on the total amount of articles once the search has been broadened, we
 
 ### Points of interest
 
-* #Specific events# We have looked into the amount of casualties and property damage over time according to areas. Spcefiic peaks have beed detected, indicating significant events. We will want to look into the peaks of the different graphs to understand where these come from, and see how these events are covered in the news. 
-* #Groups claiming attacks# The groups which have claimed the largest number of attacks have been plotted. We would like to dive deeper into this subject and unsderstand a few things, including:
+* 'Specific events' We have looked into the amount of casualties and property damage over time according to areas. Spcefiic peaks have beed detected, indicating significant events. We will want to look into the peaks of the different graphs to understand where these come from, and see how these events are covered in the news. 
+* 'Groups claiming attacks' The groups which have claimed the largest number of attacks have been plotted. We would like to dive deeper into this subject and unsderstand a few things, including:
 --> which groups are active over what period?
 --> which populations and locations are targeted?
 --> what motives are the most prevalant according to the various groups?
