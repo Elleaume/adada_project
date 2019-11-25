@@ -18,7 +18,13 @@ Since September 11 2001, terrorism has been in the headlines around the globe. A
 This database is a collection of facts about terrorist attacks from 1970-2017. The facts cover location, date, motive, and who claimed the attack and a very large variety of other very specific metrics. 
 https://www.kaggle.com/START-UMD/gtd
 
-Also all the data from 1993 was lost during the digitalisation process. 
+Also all the data from 1993 was lost during the digitalisation process. We plan to scrap to Wikipedias attacks for this year in the future.
+
+From data collection, terrorists attacks from the last 50 years were reviewed to measure the extent of terrorist attacks around the world. More specifically by focusing on:
+- the number of attacks per year
+- attacks resulting or not in dead and wounded
+- the values of the damaged properties
+
 
 
 ## All the news 
