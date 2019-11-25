@@ -38,18 +38,16 @@ The country concerned in the article was extracted from the content and saved as
 
 ### New York Times articles
 
-As the amount of articles from all the news resulted in a rather narrow dataset, we decided to merge the articles found so far with another dataset. We had to narrow down the diversity of publishers and chose to start using only New York Times articles. The New York Times provides a very robust Application Programming Interfaces (APIs) to enable computer applications to request informations on a large diversity of subjects. Article Search API retrieves headlines, abstracts and links to associated multimedia from 1851 to today and can be used to look up articles by keyword. To contrsuct a preliminary database, we used the keyword `terrorism` and data was returned in a  `JSON` format. We therefore extracted articles from 1997 to 2017 which contained a terrorism tag. 
+As the amount of articles from all the news resulted in a rather narrow dataset, we decided to merge the articles found so far with another dataset. We had to narrow down the diversity of publishers and chose to start using only New York Times articles. The New York Times provides a very robust Application Programming Interfaces (APIs) to enable computer applications to request informations on a large diversity of subjects. Article Search API retrieves headlines, abstracts and links to associated multimedia from 1851 to today and can be used to look up articles by keyword. To contrsuct a preliminary database, we used the keyword `terrorism` and data was returned in a  `JSON` format. We therefore extracted articles from 1997 to 2017 which contained a terrorism tag. This dataset will need to be elaborated by broadening the tag search, as this may still be too "restrictive".
 
 New York Times data contains an abstract, date, headline, location when available, section, list of subjects, the url	and a word count.
 The country was extracted from the location column to allow for comparison with the Global terrorism database dataset. 
 
 ### Limitations
 
-The New York Times sets two rate limits per API, 4000 requests per day and 10 requests per minute, which can be limiting to construct a full database in a limited amount of time. However, we planned to enrich the database as time goes by using also more query keywords. 
+The New York Times sets two rate limits per API, 4000 requests per day and 10 requests per minute, which can be limiting to construct a full database in a limited amount of time. However, we planned to enrich the database as time goes by using also more query keywords as mentioned above. 
 
-Furthermore, limiting news coverage only to New York Times is clearly not as representative to western media in general even if we chose one of the most popular newspaper written in english. 
-
-Because of this, in the furture we would also like to scrape articles from The Guardian as its Content API provides access to all the content the Guardian published as far back as 1999 but this would mean that the timespan we would have to consider would be from 1999 to 2017. 
+Depending on the total amount of articles once the search has been broadened, we may also expand our database, and add articles from The Guardian as its Content API provides access to all the content the Guardian published as far back as 1999. This would mean that the timespan we would have to consider would be from 1999 to 2017. 
 
 
 
