@@ -66,18 +66,24 @@ Depending on the total amount of articles once the search has been broadened, we
 **2 Dec 2019**:  
 * Scrape data to complete as much as possible the Global terrorism database of 1993
 * Extend our article database by having a less biased dictionnary
+
 **9 Dec 2019**:
 * Complete analysis on the groups claiming terror attacks
 * Complete analysis concerning specific events
+
 **16 Dec 2019**
 * Complete analysis of article coverage
 * Add everything to datastory
+
 **19 Dec 2019**
 * Finish updateing the datastory
+
 **20 Dec 2019**
 * Reread datastory and last minute adjustments before hand in
+
 **6 Jan 2020**
 * Have started the Poster for the presentation
+
 **15 Jan 2020**
 * Print the poster 
 * Prepare presentation
