@@ -52,14 +52,13 @@ Depending on the total amount of articles once the search has been broadened, we
 ### Points of interest
 
 **Specific events** We have looked into the amount of casualties and property damage over time according to areas. Spcefiic peaks have beed detected, indicating significant events. We will want to look into the peaks of the different graphs to understand where these come from, and see how these events are covered in the news. 
-* 'Groups claiming attacks' The groups which have claimed the largest number of attacks have been plotted. We would like to dive deeper into this subject and unsderstand a few things, including:
---> which groups are active over what period?
---> which populations and locations are targeted?
---> what motives are the most prevalant according to the various groups?
---> which methods are employed to try to pass their message? is property dammage a goal? or human casualties?
---> how is the news coverage distributed according to the different actors?
-* #linking with news# we will be looking at the number of articles during the major events identified by the peaks in material dammage and human casualties. To look into the coverage, we will be looking at the length of the articles in question, which can give a general insight as to if the article is more factual and to the point, or if it is a an extensive article. The number of articles will also be indicated. 
-
+**Groups claiming attacks** The groups which have claimed the largest number of attacks have been plotted. We would like to dive deeper into this subject and unsderstand a few things, including:
+* which groups are active over what period?
+* which populations and locations are targeted?
+* what motives are the most prevalant according to the various groups?
+* which methods are employed to try to pass their message? is property dammage a goal? or human casualties?
+* how is the news coverage distributed according to the different actors?
+**linking with news** we will be looking at the number of articles during the major events identified by the peaks in material dammage and human casualties. To look into the coverage, we will be looking at the length of the articles in question, which can give a general insight as to if the article is more factual and to the point, or if it is a an extensive article. The number of articles will also give an indication of the general publics awareness.
 
 
 
