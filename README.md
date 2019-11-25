@@ -18,7 +18,7 @@ Since September 11 2001, terrorism has been in the headlines around the globe. A
 This database is a collection of facts about terrorist attacks from 1970-2017. The facts cover location, date, motive, and who claimed the attack and a very large variety of other very specific metrics. 
 https://www.kaggle.com/START-UMD/gtd
 
-Also all the data from 1993 was lost during the digitalisation process. We plan to scrap to Wikipedias attacks for this year in the future.
+Also all the data from 1993 was lost during the digitalisation process. We plan to scrap to Wikipedias attacks for this year in the future. Another limitation regards entries before 1997. The entries were not quite as standardized, and certain parameters are missing for these attacks. Analysis according to some parameters may have to be done concerning only the data after 1997. 
 
 From data collection, terrorists attacks from the last 50 years were reviewed to measure the extent of terrorist attacks around the world. More specifically by focusing on:
 - the number of attacks per year
@@ -31,13 +31,17 @@ From data collection, terrorists attacks from the last 50 years were reviewed to
 This database is a collection of news coverage from CNN, New York Times, Breitbart, Fox news, the Guardian, 
 https://www.kaggle.com/snapcrack/all-the-news#articles3.csv 
 
-After investigating all-the-news datset, we found out that the distribution in time of the articles was highly imbalanced and most of the data was dated from 2017 and 2016 with very few entries for earlier yeares. After a first fitlering of the articles using a sentence matcher on the titles, only 9 articles corresponding to a custom-build dictionary of words of interest on terrorism. Given that the dataset had to be cleaned further and that there were evidence of a lot of data not concerning our topic we decide to drop it. 
+After investigating all-the-news datset, we found out that the distribution in time of the articles was highly imbalanced and most of the data was dated from 2017 and 2016 with very few entries for earlier yeares. After a first fitlering of the articles using a sentence matcher on the titles, only about 3000 articles corresponding to a custom-build dictionary of words of interest on terrorism. One limitation which we will need to tackle in the upcoming weeks is how we identify if an article concerns a terror attack. For the time being, we have given a naive list of a few words which we thought matched with terrorism. This induces a bias in what type of articles we are analysing. We will need to create a less biased library, using a liwc dictioary for example, to search for unbiased word comparison in the upcoming weeks. 
+
+The country concerned in the article was extracted from the content and saved as the location. We realise that this is a rather naive way to depict which countries are covered, and we will need to do the same regarding cities. As this dataset concerns only american news, the "united States" is probably under-represented in our way of identifying the countries. An article concerning an attack in "Oklahoma City" may not necessarily have the country specified as it is obvious to the public reading the news that this concerns the United States. Another potential issue is that for the time being, as soon as one country is found within the content, we consider that this is the "location" of the attack. However, it could be that the country appearing first in the text could be part of an introduction giving political or historical background for example, and that this country is not the country where the attack occured. We may have to modify this technique to make sure that cities extracted as well as the countries overlap, or possibly count the amount of appearances of different country words within the content, and identify as the country appearing the most as the location of the attack.
+
 
 ### New York Times articles
 
-To construct a new dataset, we had to narrow down the diversity of publishers and chose to start using only New York Times articles. The New York Times provides a very robust Application Programming Interfaces (APIs) to enable computer applications to request informations on a large diversity of subjects. Article Search API retrieves headlines, abstracts and links to associated multimedia from 1851 to today and can be used to look up articles by keyword. To contrsuct a preliminary database, we used the keyword `terrorism` and data was returned in a  `JSON` format. 
+As the amount of articles from all the news resulted in a rather narrow dataset, we decided to merge the articles found so far with another dataset. We had to narrow down the diversity of publishers and chose to start using only New York Times articles. The New York Times provides a very robust Application Programming Interfaces (APIs) to enable computer applications to request informations on a large diversity of subjects. Article Search API retrieves headlines, abstracts and links to associated multimedia from 1851 to today and can be used to look up articles by keyword. To contrsuct a preliminary database, we used the keyword `terrorism` and data was returned in a  `JSON` format. We therefore extracted articles from 1997 to 2017 which contained a terrorism tag. 
 
 New York Times data contains an abstract, date, headline, location when available, section, list of subjects, the url	and a word count.
+The country was extracted from the location column to allow for comparison with the Global terrorism database dataset. 
 
 ### Limitations
 
