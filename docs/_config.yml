@@ -29,7 +29,7 @@ github_username:  elleaume
 
 # Build settings
 remote_theme: minimal-mistakes-jekyll
-#theme: minimal-mistakes-jekyll
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
 
