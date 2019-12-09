@@ -4,10 +4,12 @@ layout: home
 
 That's the home ?
 
-{% for post in site.general %}
+Allé
+
+{% for post in site.posts %}
 <li><a href='{{ post.url }}'>{{post.title}}</a></li>
 {% endfor %}
-{% for file in site.img %}
+{% for file in site.static_files %}
 {%if file.name == "HomeImg.jpg"%}
 <img src="{{ file.path }}" alt="file.name">
 {% endif %}
