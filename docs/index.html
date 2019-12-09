@@ -1,13 +1,19 @@
 ---
 layout: home
-featured-img: /img/HomeImg.jpg
+header:
+  overlay_image: img/HomeImg.jpg
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  actions:
+    - label: "More Info"
+      url: "https://unsplash.com"
 ---
 
-<div class="FeaturedImgBanner" {% if page.featured-img %} style="background-image: url('{{ page.featured-img }}');" {% endif %}>
-    <!-- Include your post title, byline, date, and other info inside the header here. -->
-</div>
+<body>
 
-That's the home ?
+
+
+That's the home ? Maybe
 
 AARG
 {% for post in site.posts %}
@@ -15,3 +21,5 @@ AARG
 {% endfor %}
 
 <img src="img\HomeImg.jpg">
+
+</body>
