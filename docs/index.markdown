@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 feature_image: "img/HomeImg.jpg"
 ---
 
