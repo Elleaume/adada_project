@@ -25,14 +25,11 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: /adada_project
 exclude: [README.md]
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-
 github_username:  elleaume
 
- # Build settings
-
+# Build settings
 remote_theme: "mmistakes/minimal-mistakes@4.14.1"
- #ßtheme: minimal-mistakes-jekyll
-
+#ßtheme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
   - jekyll-paginate
@@ -40,14 +37,6 @@ plugins:
   - jekyll-gist
   - jemoji
   - jekyll-include-cache
-
-default:
-  - scope:
-    path: "img"
-    values: 
-      image: true
-
-
 
 default:
   - scope:
