@@ -32,6 +32,11 @@ remote_theme: "mmistakes/minimal-mistakes@4.14.1"
 #ßtheme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jemoji
+  - jekyll-include-cache
 
 default:
   - scope:
