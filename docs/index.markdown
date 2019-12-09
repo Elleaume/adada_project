@@ -1,6 +1,5 @@
 ---
 layout: default
-feature_image: "img/HomeImg.jpg"
 ---
 
 That's the home ?
