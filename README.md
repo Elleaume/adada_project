@@ -2,11 +2,11 @@
 
 ## Data Story
 
-Main link : https://elleaume.github.io/adada_sur_mon_bidet.github.io/
+**Main link** : https://elleaume.github.io/adada_sur_mon_bidet.github.io/
 
 Source code: https://github.com/Elleaume/adada_sur_mon_bidet.github.io
 
-Two jupyter notebooks were used to build the whole data story, one with the whole Global Terrorism Dataset processing and analysis : `GlobalTerrorismProject.ipynb` and another with all the American News related datatsets : `Clean_journals.ipynb`.
+Two jupyter notebooks were used to build the whole data story, one with the whole Global Terrorism Dataset processing and analysis : `GlobalTerrorismProject.ipynb` and another with the processing of American News related datatsets : `Clean_journals.ipynb`.
 Due to the size of the merged jupyter notebooks, some plots may not be correctly visible on juypter however all these are present in the data story (link above). 
 
 # Abstract
