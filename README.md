@@ -51,7 +51,9 @@ The country was extracted from the location column to allow for comparison with 
 
 ### Limitations
 
-Our main limitation concerns the articles dataset. Most articles in All-the-news were published in 2015, 2016 and 2017. This has a great impact on news coverage in time, since the datataset with articles has not an uniform distribution in time and has much more articles for years 2015-2017 any plot with analysis in time of terror attacks coverage will end up having few datapoints for years before 2015 and then the plot shall not be as representative as we would have wanted.
+Our main limitation concerns the articles dataset. Indeed, most articles in the database were published between 2017, making our dataset very unbalanced. This has a great impact on news coverage in time, causing any plot with analysis in time of coverage of terror attacks coverage before 2015 to have few data points. Unfortunately, the plots are therefore not as representative  as we would have wished. 
+Another concern about this dataset is about the selection of the articles that may concern terrorism. As the dictionary used to chose the themes that the articles address is composed by terrorism related terms, it is sometimes possible that the accuracy of selection is not ideal. It would be interesting to find a tool that could better discriminate between the articles. A classifier would have be a useful tool, but unfortunately we didn’t have article’s themes labeled, and labeling the articles by ourselves would have been an impossible task. Furthermore the definition of Terrorism is a very complex one as mentioned in the beginning. Labeling the dataset would have been biased as to our personal perception of which event is considered as terrorism. 
+Another problem encountered was during the extraction of countries from the content of the articles, it wasn’t possible for us to know if the countries extracted are the country where the attack took place or if they were just mentioned in the text for other reasons.  General semantic analysis would have been required to extract this information.
 
 ### Points of interest
 
@@ -90,7 +92,7 @@ Our main limitation concerns the articles dataset. Most articles in All-the-news
 * Word maps of most active groups per continent - Annina Stuber
 * Themes covered by terrorism related articles - Annina Stuber
 * Radar plots with themes coverd by articles on terrorism in all continents - Francesca Luongo
-Mirror bar plot of terror attacks covered by news articles and average length of the articles for a selection of countries - Christelle Schneuwly
+* Mirror bar plot of terror attacks covered by news articles and average length of the articles for a selection of countries - Christelle Schneuwly
 * Most active groups in Iraq line plot and themes scores in Iraq and the US - Annina Stuber and Francesca Luongo
 
 #### 4. Poster presentation
