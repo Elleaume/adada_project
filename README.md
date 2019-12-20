@@ -51,9 +51,7 @@ The country was extracted from the location column to allow for comparison with 
 
 ### Limitations
 
-The New York Times sets two rate limits per API, 4000 requests per day and 10 requests per minute, which can be limiting to construct a full database in a limited amount of time. However, we planned to enrich the database as time goes by using also more query keywords as mentioned above. 
-
-Depending on the total amount of articles once the search has been broadened, we may also expand our database, and add articles from The Guardian as its Content API provides access to all the content the Guardian published as far back as 1999. This would mean that the timespan we would have to consider would be from 1999 to 2017. 
+Our main limitation concerns the articles dataset. Most articles in All-the-news were published in 2015, 2016 and 2017. This has a great impact on news coverage in time, since the datataset with articles has not an uniform distribution in time and has much more articles for years 2015-2017 any plot with analysis in time of terror attacks coverage will end up having few datapoints for years before 2015 and then the plot shall not be as representative as we would have wanted.
 
 ### Points of interest
 
