@@ -1,5 +1,14 @@
 # Terrorism perceived though western news
 
+## Data Story
+
+Main link : https://elleaume.github.io/adada_sur_mon_bidet.github.io/
+
+Source code: https://github.com/Elleaume/adada_sur_mon_bidet.github.io
+
+Two jupyter notebooks were used to build the whole data story, one with the whole Global Terrorism Dataset processing and analysis : `GlobalTerrorismProject.ipynb` and another with all the American News related datatsets : `Clean_journals.ipynb`.
+Due to the size of the merged jupyter notebooks, some plots may not be correctly visible on juypter however all these are present in the data story in the link above. 
+
 # Abstract
 
 Since September 11 2001, terrorism has been in the headlines around the globe. A general fear reappears every few years as events labeled as "terrorist attacks" occur. Certain parties have gained in popularity in the past few years, often using the anxiety of "dangerous terrorists" as a pretext to defend anti-immigrant policies. Have terrorist attacks increased in the past years as we are lead to believe? or has the rate been more or less constant? Are foreigners or immigrants really more likely to commit these terrorist attacks? News coverage plays a big role in how we perceive these events, some events are debated and discussed during weeks, while others are never mentioned. We want to explore the rate and distribution of these attacks over the world, and dive into their news coverage in the western hemisphere.  
@@ -25,8 +34,6 @@ From data collection, terrorists attacks from the last 50 years were reviewed to
 - attacks resulting or not in dead and wounded
 - the values of the damaged properties
 
-
-
 ## All the news 
 This database is a collection of news coverage from CNN, New York Times, Breitbart, Fox news, the Guardian, 
 https://www.kaggle.com/snapcrack/all-the-news#articles3.csv 
@@ -34,7 +41,6 @@ https://www.kaggle.com/snapcrack/all-the-news#articles3.csv
 After investigating all-the-news datset, we found out that the distribution in time of the articles was highly imbalanced and most of the data was dated from 2017 and 2016 with very few entries for earlier yeares. After a first fitlering of the articles using a sentence matcher on the titles, only about 3000 articles corresponding to a custom-build dictionary, were found. One limitation which we will need to tackle in the upcoming weeks is how we identify if an article concerns a terror attack. For the time being, we have given a naive list of a few words which we thought matched with terrorism. This induces a bias in what type of articles we are analysing. We will need to create a less biased library, using a liwc dictionary for example, to search for unbiased word comparison in the upcoming weeks. 
 
 The country concerned in the article was extracted from the content and saved as the location. We realise that this is a rather naive way to depict which countries are covered, and we will need to do the same regarding cities. As this dataset concerns only american news, the "United States" is probably under-represented in our way of identifying the countries. An article concerning an attack in "Oklahoma City" may not necessarily have the country specified as it is obvious to the public reading the news that this concerns the United States. Another potential issue is that for the time being, as soon as one country is found within the content, we consider that this is the "location" of the attack. However, it could be that the country appearing first in the text could be part of an introduction giving political or historical background for example, and that this country is not the country where the attack occured. We may have to modify this technique to make sure that cities extracted as well as the countries overlap, or possibly count the amount of appearances of different country words within the content, and identify as the country appearing the most as the location of the attack.
-
 
 ### New York Times articles
 
@@ -59,6 +65,38 @@ Depending on the total amount of articles once the search has been broadened, we
 * which methods are employed to try to pass their message? is property dammage a goal? or human casualties?
 * how is the news coverage distributed according to the different actors?
 **linking with news** we will be looking at the number of articles during the major events identified by the peaks in material dammage and human casualties. To look into the coverage, we will be looking at the length of the articles in question, which can give a general insight as to if the article is more factual and to the point, or if it is a an extensive article. The number of articles will also give an indication of the general publics awareness.
+
+## Contributions
+
+#### 1. Processing Global Terrorism dataset
+* Dataset cleaning and recovery of wronlgy formatted data - Annina Stuber 
+* Data exploration - Camille Elleaume and Annina Stuber
+* Statistics of interest - Camille Elleaume and Annina Stuber
+
+#### 2. Processing of Articles related dataset
+* Cleaning cleaningr - Francesca Luongo
+* Data exploration - Francesca Luongo
+* Creation of a 'terrorism score' to filter out articles of interest and selection of articles - Annina Stuber
+* Topics detection and attribution of a theme score per article - Francesca Luongo and Annina Stuber
+* Web scraping of New York Times articles on terrorism and missing 1993 data on Wikipedia - Christelle Schneuwly
+* Merging and formatting of All-the-news dataset and New York Times articles - Francesca Luongo and Annina Stuber
+
+#### 3. Datastory and plots
+* Creation and style of the website - Camille Elleaume
+* Plots with statistics on Global Terrorism Dataset - Camille Elleaume
+* World map with terror attacks - Christelle Schneuwly
+* Terrorist groups analysis with their targets and the weapons they use - Camille Elleaume
+* Repartition of attacks per continents for most active groups - Annina Stuber
+* Word maps of most active groups per continent - Annina Stuber
+* Themes covered by terrorism related articles - Annina Stuber
+* Radar plots with themes coverd by articles on terrorism in all continents - Francesca Luongo
+* Mirror bar plot of terror attacks covered by news articles and average length of the articles for a selection of countries - Christelle Schneuwly
+* Most active groups in Iraq line plot and themes scores in Iraq and the US - Annina Stuber and Francesca Luongo
+
+#### 4. Poster presentation
+
+* Poster creation - all 
+* Poster oral presentation 
 
 
 ## Plan and temporal objectives
