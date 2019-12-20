@@ -72,7 +72,7 @@ Our main limitation concerns the articles dataset. Most articles in All-the-news
 * Statistics of interest - Camille Elleaume and Annina Stuber
 
 #### 2. Processing of Articles related dataset
-* Cleaning cleaningr - Francesca Luongo
+* Dataset cleaning - Francesca Luongo
 * Data exploration - Francesca Luongo
 * Creation of a 'terrorism score' to filter out articles of interest and selection of articles - Annina Stuber
 * Topics detection and attribution of a theme score per article - Francesca Luongo and Annina Stuber
