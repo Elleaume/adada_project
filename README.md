@@ -1,4 +1,4 @@
-# Terrorism perceived though western news
+# Terrorism and how it is perceived though American News
 
 ## Data Story
 
