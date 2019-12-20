@@ -78,19 +78,20 @@ Depending on the total amount of articles once the search has been broadened, we
 * Data exploration - Francesca Luongo
 * Creation of a 'terrorism score' to filter out articles of interest and selection of articles - Annina Stuber
 * Topics detection and attribution of a theme score per article - Francesca Luongo and Annina Stuber
+* Find geographical information in the articles - Annina Stuber and Francesca Lunongo 
 * Web scraping of New York Times articles on terrorism and missing 1993 data on Wikipedia - Christelle Schneuwly
 * Merging and formatting of All-the-news dataset and New York Times articles - Francesca Luongo and Annina Stuber
+* Linking of articles specifically covering terror attacks - Christelle Schneuwly
 
 #### 3. Datastory and plots
 * Creation and style of the website - Camille Elleaume
-* Plots with statistics on Global Terrorism Dataset - Camille Elleaume
+* Plots with structural variables in Global Terrorism Dataset - Camille Elleaume
 * World map with terror attacks - Christelle Schneuwly
 * Terrorist groups analysis with their targets and the weapons they use - Camille Elleaume
 * Repartition of attacks per continents for most active groups - Annina Stuber
 * Word maps of most active groups per continent - Annina Stuber
 * Themes covered by terrorism related articles - Annina Stuber
 * Radar plots with themes coverd by articles on terrorism in all continents - Francesca Luongo
-* Linking of articles specifically covering terror attacks - Christelle Schneuwly
 Mirror bar plot of terror attacks covered by news articles and average length of the articles for a selection of countries - Christelle Schneuwly
 * Most active groups in Iraq line plot and themes scores in Iraq and the US - Annina Stuber and Francesca Luongo
 
