@@ -7,7 +7,7 @@ Main link : https://elleaume.github.io/adada_sur_mon_bidet.github.io/
 Source code: https://github.com/Elleaume/adada_sur_mon_bidet.github.io
 
 Two jupyter notebooks were used to build the whole data story, one with the whole Global Terrorism Dataset processing and analysis : `GlobalTerrorismProject.ipynb` and another with all the American News related datatsets : `Clean_journals.ipynb`.
-Due to the size of the merged jupyter notebooks, some plots may not be correctly visible on juypter however all these are present in the data story in the link above. 
+Due to the size of the merged jupyter notebooks, some plots may not be correctly visible on juypter however all these are present in the data story (link above). 
 
 # Abstract
 
@@ -90,7 +90,8 @@ Depending on the total amount of articles once the search has been broadened, we
 * Word maps of most active groups per continent - Annina Stuber
 * Themes covered by terrorism related articles - Annina Stuber
 * Radar plots with themes coverd by articles on terrorism in all continents - Francesca Luongo
-* Mirror bar plot of terror attacks covered by news articles and average length of the articles for a selection of countries - Christelle Schneuwly
+* Linking of articles specifically covering terror attacks - Christelle Schneuwly
+Mirror bar plot of terror attacks covered by news articles and average length of the articles for a selection of countries - Christelle Schneuwly
 * Most active groups in Iraq line plot and themes scores in Iraq and the US - Annina Stuber and Francesca Luongo
 
 #### 4. Poster presentation
